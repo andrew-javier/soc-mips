@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov 30 22:38:10 2016
+# Process ID: 7264
+# Log file: C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface/vivado.log
+# Journal file: C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface/IOandInterface.xpr
+add_files -norecurse {C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface/IOandInterface.srcs/sources_1/new/gpiotb.v C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface/IOandInterface.srcs/sources_1/new/adddectb.v C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface/IOandInterface.srcs/sources_1/new/factb.v C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface/IOandInterface.srcs/sources_1/new/topsoctb.v}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top topsoctb [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source factorialtop.tcl
+close_sim
+set_property top topsoctb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source topsoctb.tcl
+close_sim
+launch_simulation
+source topsoctb.tcl
+close_sim
+launch_simulation
+source topsoctb.tcl
+close_sim
+add_files -norecurse C:/Users/Kurisu/Documents/VivadoProjects/IOandInterface/IOandInterface.srcs/sources_1/new/memfile_s.dat
+launch_simulation
+source topsoctb.tcl
+close_sim
+launch_simulation
+source topsoctb.tcl
+close_sim
+launch_simulation
+source topsoctb.tcl
+close_sim
+update_compile_order -fileset sources_1
+set_property top system [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top system [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design

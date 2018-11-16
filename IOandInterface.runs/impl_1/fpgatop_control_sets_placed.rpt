@@ -1,0 +1,68 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Dec 03 23:51:30 2016
+| Host         : Kurisu-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file fpgatop_control_sets_placed.rpt
+| Design       : fpgatop
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    15 |
+| Minimum Number of register sites lost to control set restrictions |    52 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              21 |           13 |
+| No           | No                    | Yes                    |              37 |           23 |
+| No           | Yes                   | No                     |              35 |           12 |
+| Yes          | No                    | No                     |              22 |           10 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              89 |           30 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+----------------------------+-------------------------------------+------------------+----------------+
+|              Clock Signal              |        Enable Signal       |           Set/Reset Signal          | Slice Load Count | Bel Load Count |
++----------------------------------------+----------------------------+-------------------------------------+------------------+----------------+
+|  system/mips/dp/pcreg/out_reg_0        |                            |                                     |                1 |              1 |
+|  system/mips/dp/pcreg/p_1_in5_out      |                            | system/mips/dp/pcreg/out_reg[0]_0   |                1 |              1 |
+|  system/mips/dp/pcreg/out_reg[31]      |                            | system/mips/dp/pcreg/out_reg[31]_0  |                1 |              1 |
+|  system/mips/dp/pcreg/E[0]             |                            |                                     |                1 |              2 |
+|  sysclk_BUFG                           | system/mips/dp/pcreg/we1_2 | system/mips/dp/pcreg/out_reg[3]     |                2 |              4 |
+|  system/fa/FA/CONTROL/load_reg_i_2_n_0 |                            |                                     |                2 |              5 |
+|  sysclk_BUFG                           |                            |                                     |                9 |             13 |
+|  sysclk_BUFG                           | system/fa/FA/CONTROL/load  | system/fa/FA/CONTROL/regout_reg[21] |                6 |             21 |
+|  sysclk_BUFG                           | system/fa/FA/CONTROL/oe    |                                     |               10 |             22 |
+|  sysclk_BUFG                           | system/mips/dp/pcreg/we2_0 | system/mips/dp/pcreg/out_reg[31]_1  |               11 |             32 |
+|  sysclk_BUFG                           | system/mips/dp/pcreg/we1_1 | system/mips/dp/pcreg/out_reg[31]_2  |               11 |             32 |
+|  sysclk_BUFG                           | system/ad/wem              |                                     |                8 |             32 |
+|  clk_IBUF_BUFG                         |                            | reset_IBUF                          |               10 |             33 |
+|  sysclk_BUFG                           |                            | reset_IBUF                          |               23 |             37 |
+|  sysclk_BUFG                           | system/mips/dp/pcreg/we3   |                                     |               12 |             96 |
++----------------------------------------+----------------------------+-------------------------------------+------------------+----------------+
+
+

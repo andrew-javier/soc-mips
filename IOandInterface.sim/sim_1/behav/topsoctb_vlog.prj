@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/error.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/reg.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/mux.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/mult.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/compare.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/cnt.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/buffer.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/DP.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/CU.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/gpioreg.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/gpioaddressdecoder.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/rslatch.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/MIPS_Initial.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/faregpulse.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/fareggo.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/fareg.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/faaddressdecoder.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/andmodule.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/Testing.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/GPIO.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/addressdecoder.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/factorialtop.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/system.v"
+verilog xil_defaultlib  "../../../IOandInterface.srcs/sources_1/new/topsoctb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 04 00:01:16 2016
+# Process ID: 49360
+# Log file: C:/Users/Andrew/Desktop/V2/IOandInterface/vivado.log
+# Journal file: C:/Users/Andrew/Desktop/V2/IOandInterface\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Andrew/Desktop/V2/IOandInterface/IOandInterface.xpr
+launch_simulation
+source topsoctb.tcl
+add_wave {{/topsoctb/TEST/mips}} 
+restart
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source topsoctb.tcl
+add_wave {{/topsoctb/TEST/gp}} 
+restart
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+add_wave {{/topsoctb/TEST/mips}} 
+restart
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+add_wave {{/topsoctb/TEST/fa}} 
+restart
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+add_wave {{/topsoctb}} 
+run 10 us
+add_wave {{/topsoctb/TEST/gp}} 
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+restart
+run 10 us
+run 10 us
+run 10 us
+close_sim
