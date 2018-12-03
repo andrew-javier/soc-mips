@@ -2,34 +2,16 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sun Dec  2 09:20:10 2018
-# Process ID: 21072
+# Start of session at: Sun Dec  2 19:44:38 2018
+# Process ID: 11072
 # Current directory: C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1804 C:\Users\andre\Documents\Fall 2018\CMPE264\IOandInterface\IOandInterface.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3820 C:\Users\andre\Documents\Fall 2018\CMPE264\IOandInterface\IOandInterface.xpr
 # Log file: C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/vivado.log
 # Journal file: C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.xpr}
 update_compile_order -fileset sources_1
-close [ open {C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmreg.v} w ]
-add_files {{C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmreg.v}}
-update_compile_order -fileset sources_1
-add_files -norecurse {{C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu.v} {C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu_old.v} {C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul.v} {C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v}}
-update_compile_order -fileset sources_1
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top fpmwrapper [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sources_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu_old.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu_old.v}}
 synth_design -rtl -name rtl_1

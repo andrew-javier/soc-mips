@@ -1,0 +1,243 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 11072
+License: Customer
+
+Current time: 	Sun Dec 02 19:45:26 PST 2018
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 754 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	diarkia124
+User home directory: C:/Users/andre
+User working directory: C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/andre/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/andre/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/andre/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/vivado.log
+Vivado journal file location: 	C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/vivado.jou
+Engine tmp dir: 	C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/.Xil/Vivado-11072-LAPTOP-OUDON668
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	188 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 505 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 61 MB (+61633kb) [00:00:18]
+// [Engine Memory]: 476 MB (+347789kb) [00:00:18]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\andre\Documents\Fall 2018\CMPE264\IOandInterface\IOandInterface.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.xpr} 
+// [GUI Memory]: 65 MB (+775kb) [00:00:21]
+// [Engine Memory]: 512 MB (+12222kb) [00:00:21]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 512 MB. GUI used memory: 34 MB. Current time: 12/2/18 7:45:28 PM PST
+// Tcl Message: open_project {C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 549 MB (+12635kb) [00:00:39]
+// [Engine Memory]: 583 MB (+6651kb) [00:00:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 586 MB. GUI used memory: 40 MB. Current time: 12/2/18 7:45:50 PM PST
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 811.191 ; gain = 87.785 
+// Project name: IOandInterface; location: C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// a (ck): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 24 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, ck)
+// PAPropertyPanels.initPanels (fpmul_cu_old.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, fpmul_cu_old.v]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, fpmul_cu_old.v]", 2, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu_old.v}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu_old.v}} 
+// aE (ck): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 76 MB (+7823kb) [00:01:20]
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v)]", 10); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v), MultiplyFP : fpmul (fpmul.v)]", 18); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v), MultiplyFP : fpmul (fpmul.v), cu : fpmul_cu (fpmul_cu.v)]", 19, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v), MultiplyFP : fpmul (fpmul.v), cu : fpmul_cu (fpmul_cu.v)]", 19, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v), MultiplyFP : fpmul (fpmul.v), dp : fpmul_dp (fpmul_dp.v)]", 20, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v), MultiplyFP : fpmul (fpmul.v), dp : fpmul_dp (fpmul_dp.v), ea_reg : dreg_en (fpmul_dp.v)]", 23, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 84 MB (+4869kb) [00:01:46]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v), MultiplyFP : fpmul (fpmul.v)]", 18, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpgatop (fpgatop.v), system : system (system.v), FloatingMult : fpmwrapper (fpmwrapper.v), MultiplyFP : fpmul (fpmul.v)]", 18, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 621 MB. GUI used memory: 44 MB. Current time: 12/2/18 7:46:53 PM PST
+// [Engine Memory]: 621 MB (+8666kb) [00:01:48]
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: fpmwrapper 
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 44 MB. Current time: 12/2/18 7:47:08 PM PST
+// [Engine Memory]: 733 MB (+85546kb) [00:02:05]
+// [Engine Memory]: 846 MB (+80288kb) [00:02:10]
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 901 MB (+12652kb) [00:02:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 937 MB. GUI used memory: 44 MB. Current time: 12/2/18 7:47:29 PM PST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// [Engine Memory]: 1,014 MB (+71350kb) [00:02:25]
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,030 MB. GUI used memory: 44 MB. Current time: 12/2/18 7:47:32 PM PST
+// [Engine Memory]: 1,068 MB (+3717kb) [00:02:27]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,130 MB (+9081kb) [00:02:27]
+// [GUI Memory]: 92 MB (+3510kb) [00:02:30]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 907.559 ; gain = 68.523 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'fpmwrapper' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmwrapper.v:23] INFO: [Synth 8-6157] synthesizing module 'fpmadec' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmadec.v:23] INFO: [Synth 8-6155] done synthesizing module 'fpmadec' (1#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmadec.v:23] INFO: [Synth 8-6157] synthesizing module 'fouronemux' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/MIPS_Initial.v:159] 
+// Tcl Message: 	Parameter WIDTH bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'fouronemux' (2#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/MIPS_Initial.v:159] 
+// Tcl Message: 	Parameter S0 bound to: 4'b0000  	Parameter S1 bound to: 4'b0001  	Parameter S2 bound to: 4'b0010  	Parameter S3 bound to: 4'b0011  	Parameter S4 bound to: 4'b0100  	Parameter S5 bound to: 4'b0101  	Parameter S6 bound to: 4'b0110  	Parameter S7 bound to: 4'b0111  	Parameter S8 bound to: 4'b1000  	Parameter S9 bound to: 4'b1001  
+// Tcl Message: INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu.v:77] INFO: [Synth 8-6155] done synthesizing module 'fpmul_cu' (5#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_cu.v:1] INFO: [Synth 8-6157] synthesizing module 'fpmul_dp' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:123] 
+// Tcl Message: 	Parameter sign_width bound to: 1 - type: integer  	Parameter exponent_width bound to: 8 - type: integer  	Parameter exponent_width2 bound to: 10 - type: integer  	Parameter mantissa_width bound to: 23 - type: integer  	Parameter mantissa_width2 bound to: 24 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'dreg_en' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:63] 
+// Tcl Message: 	Parameter WIDTH bound to: 1 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_en' (6#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:63] INFO: [Synth 8-6157] synthesizing module 'dreg_en__parameterized0' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:63] 
+// Tcl Message: 	Parameter WIDTH bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_en__parameterized0' (6#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:63] INFO: [Synth 8-6157] synthesizing module 'dreg_en__parameterized1' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:63] 
+// Tcl Message: 	Parameter WIDTH bound to: 24 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_en__parameterized1' (6#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:63] INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:4] 
+// Tcl Message: 	Parameter WIDTH bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'adder' (7#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:4] INFO: [Synth 8-6157] synthesizing module 'subtractor' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:12] 
+// Tcl Message: 	Parameter WIDTH bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'subtractor' (8#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:12] INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:29] 
+// Tcl Message: 	Parameter WIDTH bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'mux2' (9#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:29] INFO: [Synth 8-6157] synthesizing module 'dreg_full' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] 
+// Tcl Message: 	Parameter WIDTH bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_full' (10#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] INFO: [Synth 8-6157] synthesizing module 'multiplier' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:20] INFO: [Synth 8-6155] done synthesizing module 'multiplier' (11#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:20] INFO: [Synth 8-6157] synthesizing module 'sl_one' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:113] 
+// Tcl Message: 	Parameter WIDTH bound to: 24 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'sl_one' (12#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:113] INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:29] 
+// Tcl Message: 	Parameter WIDTH bound to: 24 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (12#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:29] INFO: [Synth 8-6157] synthesizing module 'adder__parameterized0' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:4] 
+// Tcl Message: 	Parameter WIDTH bound to: 24 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'adder__parameterized0' (12#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:4] INFO: [Synth 8-6157] synthesizing module 'dreg_full__parameterized0' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] 
+// Tcl Message: 	Parameter WIDTH bound to: 24 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_full__parameterized0' (12#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] INFO: [Synth 8-6157] synthesizing module 'dreg' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:38] 
+// Tcl Message: 	Parameter WIDTH bound to: 1 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg' (13#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:38] INFO: [Synth 8-6157] synthesizing module 'dreg_of_uf' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:48] 
+// Tcl Message: 	Parameter WIDTH bound to: 1 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_of_uf' (14#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:48] INFO: [Synth 8-6157] synthesizing module 'dreg_full__parameterized1' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] 
+// Tcl Message: 	Parameter WIDTH bound to: 1 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_full__parameterized1' (14#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] INFO: [Synth 8-6157] synthesizing module 'dreg_full__parameterized2' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] 
+// Tcl Message: 	Parameter WIDTH bound to: 8 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_full__parameterized2' (14#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] INFO: [Synth 8-6157] synthesizing module 'dreg_full__parameterized3' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] 
+// Tcl Message: 	Parameter WIDTH bound to: 23 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dreg_full__parameterized3' (14#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:95] INFO: [Synth 8-6155] done synthesizing module 'fpmul_dp' (15#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul_dp.v:123] INFO: [Synth 8-6155] done synthesizing module 'fpmul' (16#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/FPM/fpmul.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'fpmregres' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmreg.v:61] INFO: [Synth 8-6155] done synthesizing module 'fpmregres' (17#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmreg.v:61] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'rslatch' [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/rslatch.v:2] INFO: [Synth 8-6155] done synthesizing module 'rslatch' (18#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/rslatch.v:2] INFO: [Synth 8-6155] done synthesizing module 'fpmwrapper' (19#1) [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/fpmwrapper.v:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 949.844 ; gain = 110.809 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 949.844 ; gain = 110.809 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 949.844 ; gain = 110.809 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/MIPS_top.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/andre/Documents/Fall 2018/CMPE264/IOandInterface/IOandInterface.srcs/sources_1/new/MIPS_top.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:31 . Memory (MB): peak = 1338.426 ; gain = 499.391 
+// Tcl Message: 59 Infos, 103 Warnings, 27 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:31 . Memory (MB): peak = 1338.426 ; gain = 499.391 
+// 'dP' command handler elapsed time: 34 seconds
+// Elapsed time: 32 seconds
+dismissDialog("Open Elaborated Design"); // bx (ck)
+// Elapsed time: 24 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// [GUI Memory]: 97 MB (+460kb) [00:03:44]
+// [GUI Memory]: 104 MB (+2203kb) [00:04:54]
