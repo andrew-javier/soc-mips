@@ -6,6 +6,7 @@ input we,
 output reg wefa,
 output reg wegpio,
 output reg wem,
+output reg wefpm,
 output reg [1:0] rdsel
     ); 
 always@(*)
@@ -34,6 +35,14 @@ if(we)
         rdsel=2'b11;
         end
     end
+    else if (a > 32'h000009ff && a < 32'h00000a0d)
+        begin
+        wem=0;
+        wefa=0;
+        wegpio=0;
+        wefpm=1;
+        rdsel=2'b01;
+        end     
 else
     begin
     if(a < 32'h000000fc || a == 32'h000000fc)
@@ -57,6 +66,14 @@ else
         wegpio=0;
         rdsel=2'b11;
         end
+    else if (a > 32'h000009ff && a < 32'h00000a0d)
+        begin
+        wem=0;
+        wefa=0;
+        wegpio=0;
+        wefpm=0;
+        rdsel=2'b01;
+        end                
     end
 end
 endmodule
