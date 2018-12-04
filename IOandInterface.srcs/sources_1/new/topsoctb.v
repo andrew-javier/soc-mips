@@ -38,18 +38,49 @@ begin
 end
 
 // generate clock to sequence tests
-always
- begin
-   clk_tb <= 1; # 5; clk_tb <= 0; # 5;
- end
 
-always@(negedge clk_tb)
+always
 begin
-if(gpo2_tb===120)
-    begin
-    $monitor("Success");
-    #5;
-    $stop;
-    end    
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+clk_tb <= 1; # 5; clk_tb <= 0; # 5;
+$stop;
 end
 endmodule

@@ -2,32 +2,18 @@
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1480837815">
   <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
   <File Type="OPT-DCP" Name="fpgatop_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="fpgatop_placed.dcp"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
   <File Type="PWROPT-DCP" Name="fpgatop_pwropt.dcp"/>
-  <File Type="OPT-DRC" Name="fpgatop_drc_opted.rpt"/>
   <File Type="ROUTE-DCP" Name="fpgatop_routed.dcp"/>
-  <File Type="ROUTE-PWR" Name="fpgatop_power_routed.rpt"/>
   <File Type="PA-TCL" Name="fpgatop.tcl"/>
   <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
   <File Type="OPT-HWDEF" Name="fpgatop.hwdef"/>
-  <File Type="PLACE-DCP" Name="fpgatop_placed.dcp"/>
-  <File Type="PLACE-IO" Name="fpgatop_io_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="fpgatop_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="fpgatop_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="fpgatop_control_sets_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="fpgatop_incremental_reuse_pre_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="fpgatop_postplace_pwropt.dcp"/>
   <File Type="PHYSOPT-DCP" Name="fpgatop_physopt.dcp"/>
-  <File Type="ROUTE-CLK" Name="fpgatop_clock_utilization_routed.rpt"/>
   <File Type="RDI-RDI" Name="fpgatop.vdi"/>
-  <File Type="ROUTE-DRC" Name="fpgatop_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="fpgatop_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-SUM" Name="fpgatop_power_summary_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="fpgatop_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="fpgatop_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="fpgatop_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="fpgatop_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="fpgatop_timing_summary_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="fpgatop_postroute_physopt.dcp"/>
   <File Type="BG-BIT" Name="fpgatop.bit"/>
   <File Type="BG-BIN" Name="fpgatop.bin"/>
@@ -40,8 +26,6 @@
   <File Type="BG-BGN" Name="fpgatop.bgn"/>
   <File Type="BG-DRC" Name="fpgatop.drc"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-PWR-RPX" Name="fpgatop_power_routed.rpx"/>
-  <File Type="ROUTE-DRC-RPX" Name="fpgatop_drc_routed.rpx"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/error.v">
