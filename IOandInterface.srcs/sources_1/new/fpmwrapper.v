@@ -108,7 +108,9 @@ fpmul MultiplyFP(
 .NaNF(nanf),
 .InfF(inff),
 .DNF(dnf),
-.ZF(zf)
+.ZF(zf),
+.A(opa),
+.B(opb)
 );
 
 fpmregres ResultRegister(

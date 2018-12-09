@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec  4 13:03:48 2018
+# Process ID: 14780
+# Current directory: C:/Users/andre/Documents/Fall 2018/CMPE264/soc-mips
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22260 C:\Users\andre\Documents\Fall 2018\CMPE264\soc-mips\IOandInterface.xpr
+# Log file: C:/Users/andre/Documents/Fall 2018/CMPE264/soc-mips/vivado.log
+# Journal file: C:/Users/andre/Documents/Fall 2018/CMPE264/soc-mips\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/andre/Documents/Fall 2018/CMPE264/soc-mips/IOandInterface.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source topsoctb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/topsoctb/TEST/FloatingMult}} 
+restart
+run all
+current_wave_config {Untitled 1}
+add_wave {{/topsoctb/TEST/imem/dOut}} 
+restart
+run all
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source topsoctb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/topsoctb/TEST/FloatingMult}} 
+current_wave_config {Untitled 2}
+add_wave {{/topsoctb/TEST/imem/dOut}} 
+restart
+run all
+current_wave_config {Untitled 2}
+add_wave {{/topsoctb/TEST/FloatingMult/StartBit}} 
+restart
+run all
+restart
+run all
+close_sim
+launch_simulation
+source topsoctb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/topsoctb/TEST/FloatingMult}} 
+current_wave_config {Untitled 3}
+add_wave {{/topsoctb/TEST/mips/dp/alu/result}} 
+restart
+run all
+current_wave_config {Untitled 3}
+add_wave {{/topsoctb/TEST/imem/dOut}} 
+restart
+run all
+restart
+run all
+restart
+run all
+close_sim
+launch_simulation
+source topsoctb.tcl
+current_wave_config {Untitled 4}
+add_wave {{/topsoctb/TEST/FloatingMult}} 
+current_wave_config {Untitled 4}
+add_wave {{/topsoctb/TEST/imem/dOut}} 
+restart
+run all
+current_wave_config {Untitled 4}
+add_wave {{/topsoctb/TEST/mips/dp/alu/a}} {{/topsoctb/TEST/mips/dp/alu/b}} {{/topsoctb/TEST/mips/dp/alu/result}} 
+restart
+run all
+close_sim

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1480837815">
-  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
   <File Type="OPT-DCP" Name="fpgatop_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="fpgatop_placed.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PLACE-DCP" Name="fpgatop_placed.dcp"/>
   <File Type="PWROPT-DCP" Name="fpgatop_pwropt.dcp"/>
   <File Type="ROUTE-DCP" Name="fpgatop_routed.dcp"/>
   <File Type="PA-TCL" Name="fpgatop.tcl"/>
