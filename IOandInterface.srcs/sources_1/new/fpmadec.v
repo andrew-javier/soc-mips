@@ -48,14 +48,14 @@ always @ (*)
                 begin
                     we0 = 0;
                     we1 = 0;
-                    we3 = 0;
+                    we3 = we;
                     rdsel = 2'b10;
                 end    
             2'b11:
                 begin
                     we0 = 0;
                     we1 = 0;
-                    we3 = we;
+                    we3 = 0;
                     rdsel = 2'b11;
                 end    
         endcase

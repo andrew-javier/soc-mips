@@ -36,7 +36,7 @@ wire resp, resof, resuf, resnanf, resinff, resdnf, reszf;
 wire startreqcmb, startreq, donedly, startpulsecmb;
 wire resdone;
 
-assign startreqcmb = wd[16] & we3;
+assign startreqcmb = wd[0] & we3;
 assign startpulsecmb = startreq & ~donedly;
     
 fpmadec AddDec(
@@ -74,7 +74,7 @@ fpmreg OperandB(
 );
 
 fpmreg1 StartBit(
-.in(wd[16]),
+.in(wd[0]),
 .reset(rst),
 .en(we3),
 .clk(clk),
